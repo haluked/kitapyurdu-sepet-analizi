@@ -1,0 +1,93 @@
+#ky-extension-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 25px;
+  background-color: #ff5722;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999998;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+#ky-overlay {
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  width: 96%;
+  height: 96%;
+  background-color: white;
+  z-index: 999999;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#ky-overlay-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#ky-controls select {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+#ky-close-btn {
+  padding: 8px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#ky-list-container {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.ky-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+}
+
+.ky-item-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.ky-book-img {
+  width: 50px;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.ky-item a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.ky-price {
+  font-weight: bold;
+  white-space: nowrap;
+}
